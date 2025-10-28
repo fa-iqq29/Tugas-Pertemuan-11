@@ -62,4 +62,45 @@ File CSV dibaca lalu disimpan ke database tanpa SQL manual, melainkan lewat enti
 ---
 
 # 🧰 Langkah-Langkah Pembuatan Persistence (JPA)
-1. 
+1. Membuat class persistance di folder utama project
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/MembuatClass.png?raw=true)
+
+2. Sambungkan Koneksi dengan database
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/Sambungkan.png?raw=true)
+
+3. Pilih tabel yang akan di persistance dari database
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/PilihTabel.png?raw=true)
+
+4. Pilih opsi sesuai gambar, lalu klik next
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/KlikNext.png?raw=true)
+
+5. Klik Finish
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/KlikFinish.png?raw=true)
+
+6. Class persistance dan package META-INF berhasil dibuat
+
+![Membuat Class](https://github.com/fa-iqq29/Tugas-Pertemuan-11/blob/main/P11%20PBO/Hasil.png?raw=true)
+
+---
+
+# ▶️ Cara Menjalankan
+
+1. Buka proyek di NetBeans.
+
+2. Pastikan database sudah dibuat dengan tabel mata_kuliah.
+
+3. Periksa konfigurasi persistence.xml agar sesuai dengan database lokalmu.
+
+4. Jalankan program — aplikasi akan menampilkan tabel data dan bisa melakukan CRUD + import CSV.
+
+---
+
+# ✍️ Penulis
+
+Faiq
+
+Mahasiswa Sistem Informasi
+
+Semester 3
+
+Universitas Islam Negeri Sunan Ampel Surabaya
