@@ -41,23 +41,23 @@ Menerapkan konsep Persistence pada Java, khususnya:
 
 1. Menampilkan Data Mata Kuliah
 
-Data ditarik dari database melalui EntityManager dan ditampilkan dalam tabel GUI.
+    Data ditarik dari database melalui EntityManager dan ditampilkan dalam tabel GUI.
 
 2. Menambahkan Data Baru
 
-Data MataKuliah disimpan ke database menggunakan persist().
+    Data MataKuliah disimpan ke database menggunakan persist().
 
 3. Mengubah dan Menghapus Data
 
-Menggunakan operasi persist() dan remove() dari JPA.
+    Menggunakan operasi persist() dan remove() dari JPA.
 
 4. Mengurutkan Data Berdasarkan Kode Mata Kuliah
 
-Query JPA otomatis mengurutkan data menggunakan ORDER BY.
+    Query JPA otomatis mengurutkan data menggunakan ORDER BY.
 
 5. Import Data dari CSV
 
-File CSV dibaca lalu disimpan ke database tanpa SQL manual, melainkan lewat entitas MataKuliah.
+    File CSV dibaca lalu disimpan ke database tanpa SQL manual, melainkan lewat entitas MataKuliah.
 
 ---
 
